@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B4A37E917DDD89000A1106A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4A37E817DDD89000A1106A /* UIKit.framework */; };
+		8B4A37EB17DDD89000A1106A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4A37EA17DDD89000A1106A /* Foundation.framework */; };
+		8B4A37ED17DDD89000A1106A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4A37EC17DDD89000A1106A /* CoreGraphics.framework */; };
+		8B4A37F317DDD89000A1106A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B4A37F117DDD89000A1106A /* InfoPlist.strings */; };
+		8B4A37F517DDD89000A1106A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4A37F417DDD89000A1106A /* main.m */; };
+		8B4A37F917DDD89000A1106A /* firechatAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4A37F817DDD89000A1106A /* firechatAppDelegate.m */; };
+		8B4A37FB17DDD89000A1106A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B4A37FA17DDD89000A1106A /* Default.png */; };
+		8B4A37FD17DDD89000A1106A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B4A37FC17DDD89000A1106A /* Default@2x.png */; };
+		8B4A37FF17DDD89000A1106A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B4A37FE17DDD89000A1106A /* Default-568h@2x.png */; };
+		8B4A380217DDD89000A1106A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B4A380017DDD89000A1106A /* MainStoryboard.storyboard */; };
+		8B4A380517DDD89000A1106A /* firechatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4A380417DDD89000A1106A /* firechatViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8B4A37E517DDD89000A1106A /* firechat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firechat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B4A37E817DDD89000A1106A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8B4A37EA17DDD89000A1106A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8B4A37EC17DDD89000A1106A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8B4A37F017DDD89000A1106A /* firechat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "firechat-Info.plist"; sourceTree = "<group>"; };
+		8B4A37F217DDD89000A1106A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8B4A37F417DDD89000A1106A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B4A37F617DDD89000A1106A /* firechat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "firechat-Prefix.pch"; sourceTree = "<group>"; };
+		8B4A37F717DDD89000A1106A /* firechatAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = firechatAppDelegate.h; sourceTree = "<group>"; };
+		8B4A37F817DDD89000A1106A /* firechatAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = firechatAppDelegate.m; sourceTree = "<group>"; };
+		8B4A37FA17DDD89000A1106A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8B4A37FC17DDD89000A1106A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8B4A37FE17DDD89000A1106A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8B4A380117DDD89000A1106A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		8B4A380317DDD89000A1106A /* firechatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = firechatViewController.h; sourceTree = "<group>"; };
+		8B4A380417DDD89000A1106A /* firechatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = firechatViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B4A37E217DDD89000A1106A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B4A37E917DDD89000A1106A /* UIKit.framework in Frameworks */,
+				8B4A37EB17DDD89000A1106A /* Foundation.framework in Frameworks */,
+				8B4A37ED17DDD89000A1106A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B4A37DC17DDD89000A1106A = {
+			isa = PBXGroup;
+			children = (
+				8B4A37EE17DDD89000A1106A /* firechat */,
+				8B4A37E717DDD89000A1106A /* Frameworks */,
+				8B4A37E617DDD89000A1106A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B4A37E617DDD89000A1106A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B4A37E517DDD89000A1106A /* firechat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B4A37E717DDD89000A1106A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B4A37E817DDD89000A1106A /* UIKit.framework */,
+				8B4A37EA17DDD89000A1106A /* Foundation.framework */,
+				8B4A37EC17DDD89000A1106A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B4A37EE17DDD89000A1106A /* firechat */ = {
+			isa = PBXGroup;
+			children = (
+				8B4A37F717DDD89000A1106A /* firechatAppDelegate.h */,
+				8B4A37F817DDD89000A1106A /* firechatAppDelegate.m */,
+				8B4A380017DDD89000A1106A /* MainStoryboard.storyboard */,
+				8B4A380317DDD89000A1106A /* firechatViewController.h */,
+				8B4A380417DDD89000A1106A /* firechatViewController.m */,
+				8B4A37EF17DDD89000A1106A /* Supporting Files */,
+			);
+			path = firechat;
+			sourceTree = "<group>";
+		};
+		8B4A37EF17DDD89000A1106A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B4A37F017DDD89000A1106A /* firechat-Info.plist */,
+				8B4A37F117DDD89000A1106A /* InfoPlist.strings */,
+				8B4A37F417DDD89000A1106A /* main.m */,
+				8B4A37F617DDD89000A1106A /* firechat-Prefix.pch */,
+				8B4A37FA17DDD89000A1106A /* Default.png */,
+				8B4A37FC17DDD89000A1106A /* Default@2x.png */,
+				8B4A37FE17DDD89000A1106A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B4A37E417DDD89000A1106A /* firechat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B4A380817DDD89000A1106A /* Build configuration list for PBXNativeTarget "firechat" */;
+			buildPhases = (
+				8B4A37E117DDD89000A1106A /* Sources */,
+				8B4A37E217DDD89000A1106A /* Frameworks */,
+				8B4A37E317DDD89000A1106A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = firechat;
+			productName = firechat;
+			productReference = 8B4A37E517DDD89000A1106A /* firechat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B4A37DD17DDD89000A1106A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = firechat;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = davidchen;
+			};
+			buildConfigurationList = 8B4A37E017DDD89000A1106A /* Build configuration list for PBXProject "firechat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8B4A37DC17DDD89000A1106A;
+			productRefGroup = 8B4A37E617DDD89000A1106A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B4A37E417DDD89000A1106A /* firechat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B4A37E317DDD89000A1106A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B4A37F317DDD89000A1106A /* InfoPlist.strings in Resources */,
+				8B4A37FB17DDD89000A1106A /* Default.png in Resources */,
+				8B4A37FD17DDD89000A1106A /* Default@2x.png in Resources */,
+				8B4A37FF17DDD89000A1106A /* Default-568h@2x.png in Resources */,
+				8B4A380217DDD89000A1106A /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B4A37E117DDD89000A1106A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B4A37F517DDD89000A1106A /* main.m in Sources */,
+				8B4A37F917DDD89000A1106A /* firechatAppDelegate.m in Sources */,
+				8B4A380517DDD89000A1106A /* firechatViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8B4A37F117DDD89000A1106A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B4A37F217DDD89000A1106A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8B4A380017DDD89000A1106A /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B4A380117DDD89000A1106A /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B4A380617DDD89000A1106A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8B4A380717DDD89000A1106A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B4A380917DDD89000A1106A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "firechat/firechat-Prefix.pch";
+				INFOPLIST_FILE = "firechat/firechat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8B4A380A17DDD89000A1106A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "firechat/firechat-Prefix.pch";
+				INFOPLIST_FILE = "firechat/firechat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B4A37E017DDD89000A1106A /* Build configuration list for PBXProject "firechat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B4A380617DDD89000A1106A /* Debug */,
+				8B4A380717DDD89000A1106A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B4A380817DDD89000A1106A /* Build configuration list for PBXNativeTarget "firechat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B4A380917DDD89000A1106A /* Debug */,
+				8B4A380A17DDD89000A1106A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B4A37DD17DDD89000A1106A /* Project object */;
+}
