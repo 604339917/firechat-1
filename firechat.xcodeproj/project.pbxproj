@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B16EB4A17DECC67005C39EC /* friendlistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B16EB4917DECC67005C39EC /* friendlistViewController.m */; };
+		8B16EB5017DF14F1005C39EC /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B16EB4F17DF14F1005C39EC /* DBManager.m */; };
+		8B16EB5317DF1C82005C39EC /* studentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B16EB5217DF1C82005C39EC /* studentViewController.m */; };
+		8B16EB5517DF20BC005C39EC /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B16EB5417DF20BC005C39EC /* libsqlite3.dylib */; };
 		8B4A37E917DDD89000A1106A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4A37E817DDD89000A1106A /* UIKit.framework */; };
 		8B4A37EB17DDD89000A1106A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4A37EA17DDD89000A1106A /* Foundation.framework */; };
 		8B4A37ED17DDD89000A1106A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4A37EC17DDD89000A1106A /* CoreGraphics.framework */; };
@@ -63,6 +67,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B16EB4817DECC67005C39EC /* friendlistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = friendlistViewController.h; sourceTree = "<group>"; };
+		8B16EB4917DECC67005C39EC /* friendlistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = friendlistViewController.m; sourceTree = "<group>"; };
+		8B16EB4E17DF14F1005C39EC /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		8B16EB4F17DF14F1005C39EC /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		8B16EB5117DF1C82005C39EC /* studentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = studentViewController.h; sourceTree = "<group>"; };
+		8B16EB5217DF1C82005C39EC /* studentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = studentViewController.m; sourceTree = "<group>"; };
+		8B16EB5417DF20BC005C39EC /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		8B4A37E517DDD89000A1106A /* firechat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firechat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B4A37E817DDD89000A1106A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8B4A37EA17DDD89000A1106A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -171,6 +182,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B16EB5517DF20BC005C39EC /* libsqlite3.dylib in Frameworks */,
 				8B4A389C17DDDA0C00A1106A /* libresolv.dylib in Frameworks */,
 				8B4A389A17DDD9C400A1106A /* Security.framework in Frameworks */,
 				8B4A389817DDD9B200A1106A /* CFNetwork.framework in Frameworks */,
@@ -188,6 +200,7 @@
 		8B4A37DC17DDD89000A1106A = {
 			isa = PBXGroup;
 			children = (
+				8B16EB5417DF20BC005C39EC /* libsqlite3.dylib */,
 				8B4A380B17DDD8F500A1106A /* Authentication */,
 				8B4A381F17DDD8F500A1106A /* Categories */,
 				8B4A382617DDD8F500A1106A /* Core */,
@@ -229,6 +242,12 @@
 				8B4A380017DDD89000A1106A /* MainStoryboard.storyboard */,
 				8B4A380317DDD89000A1106A /* firechatViewController.h */,
 				8B4A380417DDD89000A1106A /* firechatViewController.m */,
+				8B16EB4817DECC67005C39EC /* friendlistViewController.h */,
+				8B16EB4917DECC67005C39EC /* friendlistViewController.m */,
+				8B16EB4E17DF14F1005C39EC /* DBManager.h */,
+				8B16EB4F17DF14F1005C39EC /* DBManager.m */,
+				8B16EB5117DF1C82005C39EC /* studentViewController.h */,
+				8B16EB5217DF1C82005C39EC /* studentViewController.m */,
 				8B4A37EF17DDD89000A1106A /* Supporting Files */,
 			);
 			path = firechat;
@@ -583,6 +602,9 @@
 				8B4A389017DDD8F500A1106A /* DDXMLDocument.m in Sources */,
 				8B4A389117DDD8F500A1106A /* DDXMLElement.m in Sources */,
 				8B4A389217DDD8F500A1106A /* DDXMLNode.m in Sources */,
+				8B16EB4A17DECC67005C39EC /* friendlistViewController.m in Sources */,
+				8B16EB5017DF14F1005C39EC /* DBManager.m in Sources */,
+				8B16EB5317DF1C82005C39EC /* studentViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -717,6 +739,7 @@
 				8B4A380A17DDD89000A1106A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

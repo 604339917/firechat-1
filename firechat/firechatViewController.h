@@ -10,4 +10,8 @@
 
 @interface firechatViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *accountField;
+@property (weak, nonatomic) IBOutlet UITextField *passwordField;
+- (IBAction)signinAction:(id)sender;
+
 @end

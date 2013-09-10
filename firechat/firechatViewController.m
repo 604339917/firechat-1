@@ -33,4 +33,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)signinAction:(id)sender {
+    NSLog(@"%@", _accountField.text);
+    
+}
 @end
